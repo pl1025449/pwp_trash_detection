@@ -82,15 +82,6 @@ def process_frame(frame):
     else:
         print(False)
 
-    #if (find_obstacle):
-        #extract the detected circle data
-        #find_obstacle = find_obstacle[0]
-        #for c in find_obstacle:
-            #x = int(c[0])
-         #   y = int(c[1])
-          #  r = int(c[2])
-           # cv2.circle(edges, (x, y), r, (255, 150, 0), 11) #circumference
-           # cv2.circle(edges, (x, y), 18, (0, 0, 255), -1)  #center
 #    cv2.imshow("img", edges)
  #   cv2.waitKey(0)
   #  cv2.destroyAllWindows()
